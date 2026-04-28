@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+spotify-config.json
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.cache/
+.turbo/
